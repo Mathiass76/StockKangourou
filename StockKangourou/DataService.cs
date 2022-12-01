@@ -43,6 +43,7 @@ namespace StockKangourou
             return;
         }
 
+        // Paolo
         public void AdoptKangourou(Kangourou kangourou)
         {
             _context.Kangourous.Remove(kangourou);
